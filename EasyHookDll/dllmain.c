@@ -23,6 +23,7 @@
 // Please visit https://easyhook.github.io for more information
 // about the project and latest updates.
 
+#define WINBASE_DECLARE_GET_MODULE_HANDLE_EX
 #include "stdafx.h"
 
 HMODULE             hNtDll = NULL;
